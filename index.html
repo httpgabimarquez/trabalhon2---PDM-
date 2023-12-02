@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PWA - Camera</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="/images/icon-256_ios.png">
+  <link rel="icon" href="/images/camera_256.png" sizes="256x256" />
+  <meta name="theme-color" content="white" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  <div classname="container">
+    <h1> Fotos 3X4</h1>
+  <input type="text" id="titulo" placeholder="Finalidade da imagem">
+   <button id="btnCarregar">Carregar minhas fotos</button>
+        <div id="resultados">
+  </div>
+
+  <video id="video" width="400" height="480" autoplay></video>
+  <button id="captureBtn">Capturar Foto</button>
+  <canvas id="canvas" width="150" height="200" style="display: none;"></canvas>
+</div>
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>
